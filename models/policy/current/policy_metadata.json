@@ -1,9 +1,0 @@
-{
-  "rasa_core": "0.7.1",
-  "policy_names": [
-    "rasa_core.policies.memoization.MemoizationPolicy",
-    "policy.MusicPlayerPolicy"
-  ],
-  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
-  "max_history": 3
-}

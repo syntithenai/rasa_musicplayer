@@ -5,8 +5,7 @@ from __future__ import unicode_literals
 
 import logging
 
-from examples.babi.run import nlu_model_path
-from examples.restaurant_example import RestaurantPolicy
+from policy import MusicPlayerPolicy
 from rasa_core.agent import Agent
 from rasa_core.channels.file import FileInputChannel
 from rasa_core.interpreter import RegexInterpreter, RasaNLUInterpreter
@@ -14,12 +13,13 @@ from rasa_core.policies.memoization import MemoizationPolicy
 
 logger = logging.getLogger(__name__)
 
+nlu_model_path = 'nlu/model/default/current_py3'
 
 def run_babi_online(max_messages=10):
-    training_data = 'examples/babi/data/babi_task5_dev_rasa_even_smaller.md'
+    training_data = 'stories.md'
     logger.info("Starting to train policy")
-    agent = Agent("examples/restaurant_domain.yml",
-                  policies=[MemoizationPolicy(), RestaurantPolicy()],
+    agent = Agent("domain.yml",
+                  policies=[MemoizationPolicy(), MusicPlayerPolicy()],
                   interpreter=RegexInterpreter())
 
     input_c = FileInputChannel(training_data,
