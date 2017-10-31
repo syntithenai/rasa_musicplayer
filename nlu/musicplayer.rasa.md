@@ -37,9 +37,17 @@
 - previous track
 
 ## intent:set_the_volume
-- volume [louder](volume)
-- set volume [louder](volume)
-- set  the volume to [10](volume)
+- set volume [ten](volume)
+- set the volume to [ten](volume)
+- set volume to [ten](volume)
+- set volume [five](volume)
+- set the volume to [five](volume)
+- set volume to [five](volume)
+- set volume [one](volume)
+- set the volume to [one](volume)
+- set volume to [one](volume)
+
+
 
 ## intent:pause
 - pause playback
@@ -68,10 +76,11 @@
 - play my collection
 
 ## intent:play_song
-- play the song [whatever is going on](song)
+- play the song [second](song)
 - play [second](song) from [jamendo](music_source)
+- play [second](song)
 - play the song [second](song) from [jamendo](music_source)
-- play the song [blue](song) from [the free music archive](music_source)
+- play the song [second](song) from [jamendo](music_source)
 
 ## intent:play_this_album
 - play this album
@@ -80,33 +89,33 @@
 ## intent:play_this_artist
 - play music by this artist
 - play other music by this artist
-- play this artist[
+- play this artist
 
 ## intent:play_music_by_artist
-- play music by [ocean shimmer](artist)
-- play songs by the artist [Queen](artist) from [fma](music_source)
-- play songs by [Jolly Roger](artist) from [Jamendo](music_source)
-- play songs by the artist [Joni Mitchell](artist)
-- play music by [Joni Mitchell](artist)
+- play music by [josh woodward](artist)
+- play songs by the artist [josh woodward](artist) from [jamendo](music_source)
+- play songs by [josh woodward](artist) from [jamendo](music_source)
+- play songs by the artist [josh woodward](artist)
+- play music by [josh woodward](artist)
 
 ## intent:play_music_from_album
-- play the album [the wall](album) on the [free music archive](music_source)
+- play the album [the wall](album) on the [jamendo](music_source)
 - play the album [the wall](album) on [Jamendo](music_source)
-- play music on the album [The Wall](album) from [fma](music_source)
-- play the album [The Wall](album) from [Jamendo](music_source)
+- play music on the album [The Wall](album) from [jamendo](music_source)
+- play the album [The Wall](album) from [jamendo](music_source)
 - play tracks from the album [The Wall](album) from [Jamendo](music_source)
 - play tracks from the album [The Wall](album)
 - play the album [The Wall](album)
 - play music on the album [The Wall](album)
 
 ## intent:play_music_genre
-- play some [disco](genre) on the [free music archive](music_source)
+- play some [pop](genre) on the [jamendo](music_source)
 - play some [pop](genre) from [jamendo](music_source)
-- play music in the genre [jazz](genre) from [jamendo](music_source)
-- play music from jamendo in the genre [jazz](genre)
-- play some [blues](genre) music from [fma](music_source)
-- play some [hiphop](genre) music
-- play music in the genre [classical](genre)
+- play music in the genre [pop](genre) from [jamendo](music_source)
+- play music from jamendo in the genre [pop](genre)
+- play some [pop](genre) music from [jamendo](music_source)
+- play some [pop](genre) music
+- play music in the genre [pop](genre)
 
 ## intent:play_all
 - play ole
@@ -117,68 +126,65 @@
 - play all these songs
 
 ## intent:search_music_by_artist
-- find me some music by josh woodward
-- search jamendo for the artist color out
-- search the free music archive for the artist josh woodward
-- find music by josh woodward from fma
-- search for music by josh woodward from fma
-- find music by josh woodward on fma
-- search jamendo for music by josh woodward
-- search for music by Steve
-- search for music by ocean shiver
-- search for music by the moose
-- find music by the moose
-- find songs by the moose
-- search jamendo for music by the artist Dogn Leather
-- search jamendo for music by Dog Leather
-- search for songs by jani on jamendo
-- search for music by Dog Leather on the fma
-- search for songs by the artist Queen from fma
-- find songs by Jolly Roger from Jamendo
-- search songs by the artist Joni Mitchell
-- search for music by Joni Mitchell
+- find me some music by [josh woodward](artist)
+- search [jamendo](music_source) for the artist [josh woodward](artist)
+- search [jamendo](music_source) for the artist [josh woodward](artist)
+- find music by [josh woodward](artist) from [jamendo](music_source)
+- search for music by [josh woodward](artist) from [jamendo](music_source)
+- find music by [josh woodward](artist) on [jamendo](music_source)
+- search [jamendo](music_source) for music by [josh woodward](artist)
+- search for music by [josh woodward](artist)
+- find music by the [josh woodward](artist)
+- find songs by the [josh woodward](artist)
+- search [jamendo](music_source) for music by the artist [josh woodward](artist)
+- search [jamendo](music_source) for music by [josh woodward](artist)
+- search for songs by [josh woodward](artist) on [jamendo](music_source)
+- search for music by [josh woodward](artist) on [jamendo](music_source)
+- search for songs by the artist [josh woodward](artist) from [jamendo](music_source)
+- find songs by [josh woodward](artist) from [Jamendo](music_source)
+- search songs by the artist [josh woodward](artist)
 
 ## intent:search_music_from_album
-- find me music from the album the wall
-- search the free music archive for the album the wall
-- search for the album the wall on jamendo
-- search jamendo for the album the wall
-- search for music on the album The Wall from fma
-- search for the album The Wall from jamendo
-- search tracks from the album The Wall from jamendo
-- search for tracks from the album The Wall
-- search for the album The Wall
-- search music on the album The Wall
+- find me music from the album [the wall](album)
+- search [jamendo](music_source) for the album [the wall](album)
+- search for the album [the wall](album) on [jamendo](music_source)
+- search [jamendo](music_source) for the album [the wall](album)
+- search for music on the album [The Wall](album) from [jamendo](music_source)
+- search for the album [The Wall](album) from [jamendo](music_source)
+- search tracks from the album [The Wall](album) from [jamendo](music_source)
+- search for tracks from the album [The Wall](album)
+- search for the album [The Wall](album)
+- search music on the album [The Wall](album)
 
 ## intent:search_music_genre
-- find me some rock music
-- search jamendo for some rock music
-- search jamendo for rock music
-- search for rock music on the free music archive
-- search for rock music from the jamendo
-- search for rock music from jamendo
-- search for some jazz music from jamendo
-- find some rock music on jamendo
-- search for music in the genre jazz from jamendo
-- search music in the genre jazz from jamendo
-- search for music from jamendo in the genre jazz
-- find some blues music from fma
-- search for music in the genre jazz
+- find me some [pop](genre) music
+- search [jamendo](music_source) for some [pop](genre) music
+- search [jamendo](music_source) for [pop](genre) music
+- search for [pop](genre) music on [jamendo](music_source)
+- search for [pop](genre) music from [jamendo](music_source)
+- search for [pop](genre) music from [jamendo](music_source)
+- search for some [pop](genre) music from [jamendo](music_source)
+- find some [pop](genre) music on [jamendo](music_source)
+- search for music in the genre [pop](genre) from [jamendo](music_source)
+- search music in the genre [pop](genre) from [jamendo](music_source)
+- search for music from [jamendo](music_source) in the genre [pop](genre)
+- find some [pop](genre) music from [jamendo](music_source)
+- search for music in the genre [pop](genre)
 
 ## intent:search_song
-- find me the song pink frost
-- find pink frost from jamendo
-- search for pink frost from jamendo
-- search for pink frost on jamendo
-- search jamendo for the song pink frost
-- search for music creation shiver
-- find turns up on the free music archive
-- find the song Turn It Up on the free music archive
-- search the fma for fun stuff
-- find the song fun stuff on jamendo
-- find the song fun stuff
-- find songs called fun stuff
-- search for the song The wall
+- find me the song [second](song)
+- find [second](song) from [jamendo](music_source)
+- search for [second] from [jamendo](music_source)
+- search for [second] on [jamendo](music_source)
+- search [jamendo](music_source) for the song [second](song)
+- search for music [second](song)
+- find [second](song) on the [jamendo](music_source)
+- find the song [second] on [jamendo](music_source)
+- search [jamendo](music_source) for [second](song)
+- find the song [second](song) on [jamendo](music_source)
+- find the song [second](song)
+- find songs called [second](song)
+- search for the song [second](song)
 
 ## intent:search_this_album
 - search for this album
@@ -216,15 +222,15 @@
 - play my favorites
 
 ## intent:save_this_playlist_as
-- copy this playlist as juggling
-- save this this playlist as juggling
+- copy this playlist as [juggling](playlist)
+- save this this playlist as [juggling](playlist)
 
 ## intent:start_playlist
 - start the playlist
-- start the dance playlist
-- start the floor playlist
-- play the dance playlist
-- start this playlist
+- start the [juggling](playlist) playlist
+- start the [juggling](playlist) playlist
+- play the [juggling](playlist) playlist
+- start [juggling](playlist) playlist
 
 ## intent:shuffle_playlist
 - shuffle the playlist
@@ -232,17 +238,16 @@
 - mix up the playlist
 
 ## intent:open_playlist
-- open the dance playlist
-- load the playlist dance
-- load the dance playlist
+- open the [juggling](playlist) playlist
+- load the playlist [juggling](playlist)
+- load the [juggling](playlist) playlist
 
 ## intent:add_to_playlist
-- add this song to my hot stuff playlist
+- add this song to my [juggling](playlist) playlist
 - add this song to the playlist
 - add song to playlist
-- add this song to the playlist dance
-- add this song to the dance playlist
-- add this song to the playlist
+- add this song to the playlist [juggling](playlist)
+- add this song to the [juggling](playlist) playlist
 
 ## intent:clear_the_playlist
 - clear the current playlist
@@ -252,18 +257,18 @@
 - clear the playlist
 
 ## intent:create_a_playlist
-- create a new playlist called dance
-- create a new playlist named dance
-- make a playlist named dance
-- make a playlist named dancce
+- create a new playlist called [juggling](playlist)
+- create a new playlist named [juggling](playlist)
+- make a playlist named [juggling](playlist)
+- make a playlist named [juggling](playlist)
 - make a new playlist
 - create a playlist
-- add a playlist called dance
-- make a new playlist called dance
-- create a playlist called dance
+- add a playlist called [juggling](playlist)
+- make a new playlist called [juggling](playlist)
+- create a playlist called [juggling](playlist)
 
 ## intent:delete_playlist
-- delete the juggling playlist
+- delete the [juggling](playlist) playlist
 - delete this playlist
 
 ## intent:delete_song_from_playlist
@@ -273,22 +278,14 @@
 - delete this song
 
 ## intent:current_view
-- I'd like to see the [home page](viewpage)
-- go to the [recent page](viewpage)
+- I'd like to see the [recent](viewpage)
+- go to the [recent](viewpage)
 - go to [recent](viewpage)
 - view [recent](viewpage)
-- show me [recent](viewpage)
-- show me the [free music archive](viewpage)
-- show me the [recent page](viewpage)
+- show me the [recent](viewpage)
 - show me
-- show me [help](viewpage)
-- show me the [search page](viewpage)
-- show me [recent music](viewpage)
-- view [recent music](viewpage)
-- go to the [help page](viewpage)
-- set the current view to [genres](viewpage)
-- show me the [artists page](viewpage)
-- show me [genres](viewpage)
+- show me [recent](viewpage)
+- show me the [recent](viewpage)
 
 ## intent:stop_listening
 - quit
@@ -315,7 +312,6 @@
 - share this track
 - share this song
 - share this playlist
-- share this playlist using [twitter](share_target)
 - share this playlist on [twitter](share_target)
 - share this playlist on [google](share_target)
 - share this playlist on [facebook](share_target)
@@ -343,9 +339,9 @@
 - what song is this
 
 ## intent:define_genre
-- define [rock](genre)
-- what is [rock](genre) music
-- what genre is [rock](genre) music
+- define [pop](genre)
+- what is [pop](genre) music
+- what genre is [pop](genre) music
 - what does genre mean?
 - what is genre?
 
@@ -360,14 +356,18 @@
 - kill this song
 
 ## intent:tag_remove
-- remove the genre [rock](genre) from this song
-- remove the tag [rock](genre) from this song
+- remove the genre [pop](genre) from this song
+- remove the tag [pop](genre) from this song
+- remove the genre [jazz](genre) from this song
+- remove the tag [jazz](genre) from this song
+- remove the genre [disco](genre) from this song
+- remove the tag [disco](genre) from this song
 
 ## intent:tag_song_as_genre
-- tag the song is [rock](genre)
-- tagged this song as [rock](genre)
-- set the genre for this song to [rock](genre)
-- tag this song as [rock](genre)
+- tag the song is [pop](genre)
+- tagged this song as [pop](genre)
+- set the genre for this song to [pop](genre)
+- tag this song as [pop](genre)
 
 ## intent:what_can_i_say
 - what can i do
@@ -378,8 +378,20 @@
 
 ## intent:help
 - help me [playlist](help_topic)
-- help me learn about [the volume](help_topic)
-- what is [favorites](help_topic)
-- help me with [organising music](help_topic)
-- how do i [play music](help_topic)
-- tell me about the [microphone](help_topic)
+- help me learn about [playlist](help_topic)
+- what is [playlist](help_topic)
+- help me with [playlist](help_topic)
+- how do i [playlist](help_topic)
+- tell me about the [playlist](help_topic)
+
+<!-- music_source -->
+## synonym:jamendo
+- the jamendo
+## synonym:fma
+- fma
+- the fma
+- the free music archive
+- free music archive
+
+<!-- other possible - share_target- genre - help_topic - viewpage  -->
+

@@ -10,7 +10,7 @@ from rasa_core.agent import Agent
 from rasa_core.policies.memoization import MemoizationPolicy
 
 
-def train_babi_dm():
+def train_dm():
     training_data_file = 'stories.md'
     model_path = 'models/policy/current'
 
@@ -31,4 +31,4 @@ def train_babi_dm():
 
 if __name__ == '__main__':
     logging.basicConfig(level="DEBUG")
-    train_babi_dm()
+    train_dm()

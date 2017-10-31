@@ -16,7 +16,7 @@ if six.PY2:
 else:
     model_name = 'current_py3'
 
-def train_babi_nlu():
+def train_nlu():
     training_data = load_data('nlu/musicplayer.rasa.md')
     trainer = Trainer(RasaNLUConfig("nlu/config.json"))
     trainer.train(training_data)
@@ -27,4 +27,4 @@ def train_babi_nlu():
 
 if __name__ == '__main__':
     logging.basicConfig(level="INFO")
-    train_babi_nlu()
+    train_nlu()
